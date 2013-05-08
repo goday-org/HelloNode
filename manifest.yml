@@ -1,0 +1,9 @@
+---
+applications:
+- name: godaynode1
+  framework: node
+  runtime: node08 
+  memory: 64M
+  instances: 1
+  url: godaynode1.${target-base}
+  path: .
