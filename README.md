@@ -1,4 +1,4 @@
 HelloNode
 =========
 
-Lean node.js
+I am Leaning <b>node.js</b> now.
