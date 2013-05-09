@@ -1,0 +1,18 @@
+//
+   Created with JetBrains WebStorm.
+   User: andy
+   Date: 13-5-9
+   Time: 下午10:24
+   To change this template use File | Settings | File Templates.
+
+extends layout
+
+block content
+    if locals.user
+        form#well.form-inline.center(style='text-align: center;')
+            input#span8(type='text', name='post')
+            button#btn.btn-success(type='submit')
+                i#icon-comment.icon-white
+                发言
+
+

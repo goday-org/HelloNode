@@ -1,5 +1,6 @@
 var crypto = require('crypto');
 var User = require('../modules/user.js');
+var Post = require('../modules/Post.js')
 module.exports = function(app) {
     app.get('/', function(req, res) {
         res.render('index', {
@@ -90,11 +91,11 @@ app.post('/post', function(req, res){
            return res.redirect('/');
        }
         req.flash('success', '发表成功');
-        return res.redirect('/u/', currentUser.name);
+        return res.redirect('/u/' + currentUser.name);
     });
 });
 app.get('/u/:user', function(req, res){
-    User.get(req.param.user, function(err, user){
+    User.get(req.params.user, function(err, user){
        if(!user){
             req.flash('error', '用户不存在');
            return res.redirect('/');
