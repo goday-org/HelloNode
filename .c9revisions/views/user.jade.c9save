@@ -1,0 +1,67 @@
+{"ts":1368176727421,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"//\n   Created with JetBrains WebStorm.\n   User: andy\n   Date: 13-5-9\n   Time: 下午10:24\n   To change this template use File | Settings | File Templates.\n\nextends layout\n\nblock content\n    if locals.user\n        form#well.form-inline.center(style='text-align: center;')\n            input#span8(type='text', name='post')\n            button#btn.btn-success(type='submit')\n                i#icon-comment.icon-white\n                发言\n\n\n"]],"start1":0,"start2":0,"length1":0,"length2":430}]],"length":430}
+{"contributors":[],"silentsave":true,"ts":1368178208582,"patch":[[{"diffs":[[0,"als.user"],[1,"vmc\n    "],[0,"\n       "]],"start1":192,"start2":192,"length1":16,"length2":24}]],"length":438,"saved":false}
+{"ts":1368178210548,"patch":[[{"diffs":[[0,"vmc\n"],[-1,"    \n"],[0,"    "]],"start1":200,"start2":200,"length1":13,"length2":8}]],"length":433,"saved":false}
+{"ts":1368178212011,"patch":[[{"diffs":[[0,"user"],[-1,"vmc"],[0,"\n   "]],"start1":196,"start2":196,"length1":11,"length2":8}]],"length":430,"saved":false}
+{"ts":1368178330651,"patch":[[{"diffs":[[0,"     发言\n"],[1,"    \n    "],[0,"\n\n"]],"start1":420,"start2":420,"length1":10,"length2":19}]],"length":439,"saved":false}
+{"ts":1368178336299,"patch":[[{"diffs":[[0,"   \n    "],[1,"f"],[0,"\n\n"]],"start1":429,"start2":429,"length1":10,"length2":11}]],"length":440,"saved":false}
+{"ts":1368178337691,"patch":[[{"diffs":[[0,"  \n    f"],[1,"or "],[0,"\n\n"]],"start1":430,"start2":430,"length1":10,"length2":13}]],"length":443,"saved":false}
+{"ts":1368178465396,"patch":[[{"diffs":[[0,"    "],[-1,"for "],[0,"\n\n"]],"start1":433,"start2":433,"length1":10,"length2":6}]],"length":439,"saved":false}
+{"ts":1368178696817,"patch":[[{"diffs":[[0,"   \n    "],[1,"posts"],[0,"\n\n"]],"start1":429,"start2":429,"length1":10,"length2":15}]],"length":444,"saved":false}
+{"ts":1368178704498,"patch":[[{"diffs":[[0,"    "],[-1,"posts"],[0,"\n\n"]],"start1":433,"start2":433,"length1":11,"length2":6}]],"length":439,"saved":false}
+{"ts":1368178708471,"patch":[[{"diffs":[[0,"   \n    "],[1,"posts"],[0,"\n\n"]],"start1":429,"start2":429,"length1":10,"length2":15}]],"length":444,"saved":false}
+{"ts":1368178724478,"patch":[[{"diffs":[[0,"    "],[-1,"posts"],[0,"\n\n"]],"start1":433,"start2":433,"length1":11,"length2":6}]],"length":439,"saved":false}
+{"ts":1368178729583,"patch":[[{"diffs":[[0,"   发"],[-1,"言"],[0,"\n   "]],"start1":422,"start2":422,"length1":9,"length2":8}]],"length":438,"saved":false}
+{"ts":1368178739113,"patch":[[{"diffs":[[0,"       发"],[1,"yan"],[0,"\n    \n  "]],"start1":418,"start2":418,"length1":16,"length2":19}]],"length":441,"saved":false}
+{"ts":1368178740454,"patch":[[{"diffs":[[0,"    发yan"],[1,"言"],[0,"\n    \n  "]],"start1":421,"start2":421,"length1":16,"length2":17}]],"length":442,"saved":false}
+{"ts":1368178743970,"patch":[[{"diffs":[[0,"   发"],[-1,"yan"],[0,"言\n  "]],"start1":422,"start2":422,"length1":11,"length2":8}]],"length":439,"saved":false}
+{"ts":1368178745235,"patch":[[{"diffs":[[0,"     发言\n"],[1,"                \n"],[0,"    \n   "]],"start1":420,"start2":420,"length1":16,"length2":33}]],"length":456,"saved":false}
+{"ts":1368178773706,"patch":[[{"diffs":[[0,"     发言\n    "],[1,"each posts"],[0,"            "]],"start1":420,"start2":420,"length1":24,"length2":34}]],"length":466,"saved":false}
+{"ts":1368178776069,"patch":[[{"diffs":[[0,"            "],[1," "],[0,"\n    \n    \n\n"]],"start1":442,"start2":442,"length1":24,"length2":25}]],"length":467,"saved":false}
+{"ts":1368178807001,"patch":[[{"diffs":[[0,"    "],[-1,"each posts    "],[1,"for"],[0,"    "]],"start1":428,"start2":428,"length1":22,"length2":11}]],"length":456,"saved":false}
+{"ts":1368178811392,"patch":[[{"diffs":[[0,"    for "],[1,"post in pos"],[0,"        "]],"start1":428,"start2":428,"length1":16,"length2":27}]],"length":467,"saved":false}
+{"ts":1368178812917,"patch":[[{"diffs":[[0,"t in pos"],[1,"ts"],[0,"        "]],"start1":439,"start2":439,"length1":16,"length2":18}]],"length":469,"saved":false}
+{"ts":1368178814746,"patch":[[{"diffs":[[0,"in posts"],[1,"\n"],[0,"        "]],"start1":441,"start2":441,"length1":16,"length2":17}]],"length":470,"saved":false}
+{"ts":1368178846822,"patch":[[{"diffs":[[0,"     发言\n"],[1,"    \n"],[0,"    for "]],"start1":420,"start2":420,"length1":16,"length2":21}]],"length":475,"saved":false}
+{"ts":1368178850609,"patch":[[{"diffs":[[0,"     发言\n    "],[1,"."],[0,"\n    for pos"]],"start1":420,"start2":420,"length1":24,"length2":25}]],"length":476,"saved":false}
+{"ts":1368178863772,"patch":[[{"diffs":[[0,"发言\n    ."],[1,"row"],[0,"\n    for"]],"start1":425,"start2":425,"length1":16,"length2":19}]],"length":479,"saved":false}
+{"ts":1368178867060,"patch":[[{"diffs":[[0,"ts\n        \n"],[1,"        \n"],[0,"    \n    \n\n"]],"start1":456,"start2":456,"length1":23,"length2":32}]],"length":488,"saved":false}
+{"ts":1368178871923,"patch":[[{"diffs":[[0,"   .row\n"],[1,"    "],[0,"    for "]],"start1":429,"start2":429,"length1":16,"length2":20}]],"length":492,"saved":false}
+{"ts":1368178874050,"patch":[[{"diffs":[[0,"sts\n        "],[1,"    "],[0,"\n        \n  "]],"start1":459,"start2":459,"length1":24,"length2":28}]],"length":496,"saved":false}
+{"ts":1368178882515,"patch":[[{"diffs":[[0,"            "],[1,".span"],[0,"\n        \n  "]],"start1":463,"start2":463,"length1":24,"length2":29}]],"length":501,"saved":false}
+{"ts":1368178884236,"patch":[[{"diffs":[[0,"   .span"],[1,"4"],[0,"\n       "]],"start1":472,"start2":472,"length1":16,"length2":17}]],"length":502,"saved":false}
+{"ts":1368178887101,"patch":[[{"diffs":[[0," .span4\n"],[1,"                \n"],[0,"        "]],"start1":474,"start2":474,"length1":16,"length2":33}]],"length":519,"saved":false}
+{"ts":1368178897123,"patch":[[{"diffs":[[0,"            "],[1,"post."],[0,"\n        \n  "]],"start1":486,"start2":486,"length1":24,"length2":29}]],"length":524,"saved":false}
+{"ts":1368178900276,"patch":[[{"diffs":[[0,"   post."],[1,"post"],[0,"\n       "]],"start1":495,"start2":495,"length1":16,"length2":20}]],"length":528,"saved":false}
+{"ts":1368179027785,"patch":[[{"diffs":[[-1,"//\n   Created with JetBrains WebStorm.\n   User: andy\n   Date: 13-5-9\n   Time: 下午10:24\n   To change this template use File | Settings | File Templates."],[0,"\n\nex"]],"start1":0,"start2":0,"length1":154,"length2":4}]],"length":378,"saved":false}
+{"ts":1368179030510,"patch":[[{"diffs":[[-1,"\n"],[0,"\nextends"]],"start1":0,"start2":0,"length1":9,"length2":8}]],"length":377,"saved":false}
+{"ts":1368179031722,"patch":[[{"diffs":[[-1,"\n"],[0,"extends "]],"start1":0,"start2":0,"length1":9,"length2":8}]],"length":376,"saved":false}
+{"ts":1368179086089,"patch":[[{"diffs":[[0,"  .span4"],[1," "],[0,"\n       "]],"start1":321,"start2":321,"length1":16,"length2":17},{"diffs":[[0,"    "],[-1,"post.post"],[0,"\n   "]],"start1":343,"start2":343,"length1":17,"length2":8}]],"length":368,"saved":false}
+{"ts":1368179087441,"patch":[[{"diffs":[[0," .span4 "],[1,"post.post"],[0,"\n       "]],"start1":322,"start2":322,"length1":16,"length2":25}]],"length":377,"saved":false}
+{"ts":1368179107672,"patch":[[{"diffs":[[1,"//\n   Created with JetBrains WebStorm.\n   User: andy\n   Date: 13-5-9\n   Time: 下午10:24\n   To change this template use File | Settings | File Templates.\n\n"],[0,"extends "]],"start1":0,"start2":0,"length1":8,"length2":160},{"diffs":[[0,"pan4"],[-1," post.post"],[0,"\n   "]],"start1":477,"start2":477,"length1":18,"length2":8},{"diffs":[[0,"            "],[1,"post.p"],[0,"\n        \n  "]],"start1":486,"start2":486,"length1":24,"length2":30}]],"length":525,"saved":false}
+{"ts":1368179113746,"patch":[[{"diffs":[[0,"    "],[-1,".span4\n                post.p"],[1,"li po"],[0,"\n   "]],"start1":471,"start2":471,"length1":37,"length2":13}]],"length":501,"saved":false}
+{"ts":1368179115160,"patch":[[{"diffs":[[0,"   li po"],[1,"st\n            "],[0,"\n       "]],"start1":472,"start2":472,"length1":16,"length2":31}]],"length":516,"saved":false}
+{"ts":1368179121957,"patch":[[{"diffs":[[0,"li post\n    "],[1,"    else \n"],[0,"        \n   "]],"start1":475,"start2":475,"length1":24,"length2":34}]],"length":526,"saved":false}
+{"ts":1368179123995,"patch":[[{"diffs":[[0,"se \n        "],[1,"    li "],[0,"\n        \n  "]],"start1":493,"start2":493,"length1":24,"length2":31}]],"length":533,"saved":false}
+{"ts":1368179131213,"patch":[[{"diffs":[[0,"     li "],[1,"no Pos"],[0,"\n       "]],"start1":504,"start2":504,"length1":16,"length2":22}]],"length":539,"saved":false}
+{"ts":1368179132666,"patch":[[{"diffs":[[0,"i no Pos"],[1,"ts"],[0,"\n       "]],"start1":510,"start2":510,"length1":16,"length2":18}]],"length":541,"saved":false}
+{"ts":1368179134706,"patch":[[{"diffs":[[0," li no Posts"],[1,"!"],[0,"\n        \n  "]],"start1":508,"start2":508,"length1":24,"length2":25}]],"length":542,"saved":false}
+{"ts":1368179149647,"patch":[[{"diffs":[[0,"    "],[-1,".row"],[0,"\n   "]],"start1":428,"start2":428,"length1":12,"length2":8}]],"length":538,"saved":false}
+{"ts":1368179159056,"patch":[[{"diffs":[[0," \n      "],[-1,"  "],[0,"for post"]],"start1":431,"start2":431,"length1":18,"length2":16}]],"length":536,"saved":false}
+{"ts":1368179159730,"patch":[[{"diffs":[[0,"  \n     "],[-1," "],[0,"for post"]],"start1":430,"start2":430,"length1":17,"length2":16}]],"length":535,"saved":false}
+{"ts":1368179160376,"patch":[[{"diffs":[[0,"发言\n    \n"],[-1,"    "],[0," for pos"]],"start1":425,"start2":425,"length1":20,"length2":16}]],"length":531,"saved":false}
+{"ts":1368179161141,"patch":[[{"diffs":[[0,"        "],[-1,"  "],[0,"li post\n"]],"start1":454,"start2":454,"length1":18,"length2":16}]],"length":529,"saved":false}
+{"ts":1368179162475,"patch":[[{"diffs":[[0,"n posts\n"],[-1,"     "],[0,"     li "]],"start1":444,"start2":444,"length1":21,"length2":16},{"diffs":[[0,"li post\n"],[-1,"  "],[0,"      el"]],"start1":457,"start2":457,"length1":18,"length2":16}]],"length":522,"saved":false}
+{"ts":1368179163694,"patch":[[{"diffs":[[0,"st\n     "],[-1," "],[0,"else \n  "]],"start1":462,"start2":462,"length1":17,"length2":16}]],"length":521,"saved":false}
+{"ts":1368179165279,"patch":[[{"diffs":[[0,"  else \n"],[-1,"            "],[0,"li no Po"]],"start1":468,"start2":468,"length1":28,"length2":16}]],"length":509,"saved":false}
+{"ts":1368179166577,"patch":[[{"diffs":[[0,"  else \n"],[1,"    "],[0,"li no Po"]],"start1":468,"start2":468,"length1":16,"length2":20}]],"length":513,"saved":false}
+{"ts":1368179167928,"patch":[[{"diffs":[[0,"发言\n    \n"],[1,"   "],[0," for pos"]],"start1":425,"start2":425,"length1":16,"length2":19}]],"length":516,"saved":false}
+{"ts":1368179169533,"patch":[[{"diffs":[[0,"ts\n     "],[1,"    "],[0,"li post\n"]],"start1":452,"start2":452,"length1":16,"length2":20}]],"length":520,"saved":false}
+{"ts":1368179171064,"patch":[[{"diffs":[[0,"        "],[-1," "],[0,"li post\n"]],"start1":455,"start2":455,"length1":17,"length2":16}]],"length":519,"saved":false}
+{"ts":1368179172931,"patch":[[{"diffs":[[0,"st\n     "],[1,"   "],[0,"else \n  "]],"start1":468,"start2":468,"length1":16,"length2":19}]],"length":522,"saved":false}
+{"ts":1368179174250,"patch":[[{"diffs":[[0,"li post\n"],[-1,"    "],[0,"    else"]],"start1":463,"start2":463,"length1":20,"length2":16}]],"length":518,"saved":false}
+{"ts":1368179176392,"patch":[[{"diffs":[[0,"  else \n"],[1,"    "],[0,"    li n"]],"start1":473,"start2":473,"length1":16,"length2":20}]],"length":522,"saved":false}
+{"ts":1368179192105,"patch":[[{"diffs":[[0,"  \n "],[-1,"   for post in posts\n        li post\n    else \n        li no Posts!\n        "],[0,"\n   "]],"start1":430,"start2":430,"length1":84,"length2":8}]],"length":446,"saved":false}
+{"ts":1368179193481,"patch":[[{"diffs":[[0,"发言\n    \n"],[-1," "],[0,"\n    \n  "]],"start1":425,"start2":425,"length1":17,"length2":16}]],"length":445,"saved":false}
+{"ts":1368179243046,"patch":[[{"diffs":[[-1,"//\n   Created with JetBrains WebStorm.\n   User: andy\n   Date: 13-5-9\n   Time: 下午10:24\n   To change this template use File | Settings | File Templates."],[0,"\n\nex"]],"start1":0,"start2":0,"length1":154,"length2":4}]],"length":295,"saved":false}
+{"ts":1368179264061,"patch":[[{"diffs":[[1,"//\n   Created with JetBrains WebStorm.\n   User: andy\n   Date: 13-5-9\n   Time: 下午10:24\n   To change this template use File | Settings | File Templates."],[0,"\n\nextend"]],"start1":0,"start2":0,"length1":8,"length2":158},{"diffs":[[0," 发言\n"],[-1,"    \n\n    \n    "],[0,"\n\n"]],"start1":424,"start2":424,"length1":21,"length2":6}]],"length":430,"saved":false}
+{"ts":1368184716470,"patch":[[{"diffs":[[0,"       发"],[1," "],[0,"言\n\n\n"]],"start1":418,"start2":418,"length1":12,"length2":13}]],"length":431,"saved":false}
