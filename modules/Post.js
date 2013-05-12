@@ -31,9 +31,12 @@ Post.prototype.save = function save(callback){
             }
             
             //add index to the user
-            collection.ensuerIndex('user');
+            collection.ensureIndex('user', function(err)
+            {
+                callback(err);
+            });
             //write post content
-            collection.inset(post, {safe: true}, function(err, post){
+            collection.insert(post, {safe: true}, function(err, post){
                 mongodb.close();
                 return callback(err, post);
             });

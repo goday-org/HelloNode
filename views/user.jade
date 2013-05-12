@@ -9,10 +9,14 @@ extends layout
 
 block content
     if locals.user
-        form#well.form-inline.center(style='text-align: center;')
+        form#well.form-inline.center(method='post',action='/post', style='text-align: center;')
             input#span8(type='text', name='post')
             button#btn.btn-success(type='submit')
                 i#icon-comment.icon-white
-                发 言
-
+                发言
+    ul
+      for post in posts
+         li= post.post
+       else
+         li no post!
 
