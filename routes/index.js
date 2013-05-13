@@ -91,7 +91,7 @@ app.post('/post', function(req, res){
            return res.redirect('/');
        }
         req.flash('success', '发表成功');
-        return res.redirect('/u/' + currentUser.name);
+        res.redirect('/u/' + currentUser.name);
     });
 });
 app.get('/u/:user', function(req, res){

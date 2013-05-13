@@ -14,9 +14,19 @@ block content
             button#btn.btn-success(type='submit')
                 i#icon-comment.icon-white
                 发言
-    ul
-      for post in posts
-         li= post.post
-       else
-         li no post!
+    for post in posts
+       - var index = posts.indexOf(post)
+       if index%3 == 0
+           <div class='row'>
+       .span4
+           h2
+               a(href='/u/'+post.user) #{post.user}
+               说
+           p
+             small  #{post.time}
+           p #{post.post}
+       if index%3 == 2
+            </div>
+    else
+            p no post!
 
