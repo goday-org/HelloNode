@@ -1,6 +1,14 @@
 extends layout
 
 block content
-  .hero-uint
-    h1= title
-    p Welcome to #{title}
+  if !locals.user     
+   .hero-uint
+    h1 Welcome to #{title}
+    p GodayBolog is developed with Node.js
+    p
+     a.btn.btn-primary.btn-large(href='/login') 登录
+     a.btn.btn-large(href='/reg') 立即注册
+  else
+   include includes/say
+  include includes/posts
+    
